@@ -11,7 +11,7 @@ import javax.swing.*;
 public class ChessMain{
     // ----------------------------------------------------------
     /**
-     * Creates the GUI for Chess.
+     * Crea GUI
      * 
      * @param args
      *            command line arguments, not used

@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 // -------------------------------------------------------------------------
 /**
- * Represents the north menu-bar that contains various controls for the game.
+ * Representa la barra de menú norte que contiene varios controles para el juego.
  *
  * @author Ben Katz (bakatz)
  * @author Myles David II (davidmm2)
