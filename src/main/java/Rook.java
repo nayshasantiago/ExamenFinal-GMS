@@ -4,36 +4,30 @@ import java.util.HashMap;
 import java.util.Map;
 // -------------------------------------------------------------------------
 /**
- * Represents a Rook game piece.
- *
- * @author Ben Katz (bakatz)
- * @author Myles David II (davidmm2)
- * @author Danielle Bushrow (dbushrow)
- * @version 2010.11.17
+ * Represents a la pieza torre
  */
+ 
 public class Rook extends ChessGamePiece{
 	protected Map<Integer, String> icons_map;
 	// private ArrayList<String> possibleMoves;
 	// ----------------------------------------------------------
 	/**
-	 * Create a new Rook object.
+	 * Cree un nuevo objeto Torre.
 	 *
 	 * @param board
-	 *            the board to create the rook on
+	 *            El tablero para crear la torre
 	 * @param row
-	 *            the row to create the rook on
+	 *            Fila para crear la torre
 	 * @param col
-	 *            the column to create the rook on
+	 *            La columna para crear la torre
 	 * @param color
-	 *            either GamePiece.WHITE, BLACK, or UNASSIGNED
+	 *            ya sea GamePiece.BLANCO, NEGRO o SIN ASIGNAR
 	 */
 	public Rook( ChessGameBoard board, int row, int col, int color ){
 		super( board, row, col, color );
 	}
 	/**
-	 * Calculates the possible moves for this Rook.
-	 * @param board the board to check on
-	 * @return ArrayList<String> the list of moves
+	 * Calcula los posibles movimientos de esta Torre.
 	 */
 	@Override
 	protected ArrayList<String> calculatePossibleMoves( ChessGameBoard board ){
@@ -49,9 +43,7 @@ public class Rook extends ChessGamePiece{
 			return allMoves;
 	}
 	/**
-	 * Creates an icon for this piece depending on the piece's color.
-	 *
-	 * @return ImageIcon the ImageIcon representation of this piece.
+	 Crea un ícono para esta pieza dependiendo del color de la pieza.
 	 */
 	@Override
 	public ImageIcon createImageByPieceType() {
