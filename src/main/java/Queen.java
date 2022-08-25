@@ -1,13 +1,9 @@
 import javax.swing.ImageIcon;
 import java.util.ArrayList;
 // import java.awt.Color;
-// -------------------------------------------------------------------------
+// -------------------------------------------------------------
 /**
- * Represents a Queen game piece.
- *
- * @author Ben Katz (bakatz)
- * @author Myles David II (davidmm2)
- * @author Danielle Bushrow (dbushrow)
+ * Representa a la reina del Juego
  * @version 2010.11.17
  */
 public class Queen
@@ -55,9 +51,9 @@ public class Queen
         return allMoves;
     }
     /**
-     * Creates an icon for this piece depending on the piece's color.
+     * Crea un ícono para esta pieza dependiendo del color de la pieza.
      *
-     * @return ImageIcon the ImageIcon representation of this piece.
+     * @return ImageIcon la representación ImageIcon de esta pieza.
      */
     @Override
     public ImageIcon createImageByPieceType(){
