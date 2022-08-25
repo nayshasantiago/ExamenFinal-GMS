@@ -2,13 +2,13 @@ import java.util.ArrayList;
 import javax.swing.ImageIcon;
 // -------------------------------------------------------------------------
 /**
- * Class to represent the Bishop piece.
+ * Clase para representar la pieza del Alfil.
  * 
  * @version 2010.11.17
  */
 public class Bishop extends ChessGamePiece{
     /**
-     * Creates a new Bishop object.
+     * Crea un nuevo alfil
      * 
      */
     public Bishop( ChessGameBoard board, int row, int col, int color ){
@@ -50,9 +50,9 @@ public class Bishop extends ChessGamePiece{
         return resultMocves;
     } 
     /**
-     * Creates an icon for this piece depending on the piece's color.
+     * Crea un ícono para esta pieza dependiendo del color de la pieza.
      * 
-     * @return ImageIcon the ImageIcon representation of this piece.
+     * @return ImageIcon la representación ImageIcon de esta pieza.
      */
     @Override
     public ImageIcon createImageByPieceType(){
