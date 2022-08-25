@@ -15,8 +15,8 @@ public class Bishop extends ChessGamePiece{
         super( board, row, col, color );
     }
     /**
-     * Calculates the possible moves for this piece. These are ALL the possible
-     * moves, including illegal (but at the same time valid) moves.
+     * Calcula los posibles movimientos de esta pieza. Estos son TODOS los posibles
+     * movimientos, incluidos los movimientos ilegales (pero al mismo tiempo válidos).
      * 
      * @param board
      *            the game board to calculate moves on
