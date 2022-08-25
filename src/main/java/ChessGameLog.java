@@ -3,12 +3,9 @@ import javax.swing.JScrollPane;
 import java.util.Date;
 // -------------------------------------------------------------------------
 /**
- * A scrollable textArea representing the game log. (i.e. moves made by each
- * player)
+ * Un área de texto desplazable que representa el registro del juego. (es decir, movimientos realizados por cada
+ * jugador)
  * 
- * @author Ben Katz (bakatz)
- * @author Myles David II (davidmm2)
- * @author Danielle Bushrow (dbushrow)
  * @version 2010.11.17
  */
 public class ChessGameLog
@@ -16,7 +13,8 @@ public class ChessGameLog
     private JTextArea textArea;
     // ----------------------------------------------------------
     /**
-     * Create a new ChessGameLog object.
+     * 
+     * Cree un nuevo objeto ChessGameLog.
      */
     public ChessGameLog(){
         super(
@@ -27,8 +25,7 @@ public class ChessGameLog
     }
     // ----------------------------------------------------------
     /**
-     * Adds a new line of text to the log.
-     * 
+     * Agrega una nueva línea de texto al registro.     * 
      * @param s
      *            the line of text to add
      */
@@ -50,7 +47,7 @@ public class ChessGameLog
     }
     // ----------------------------------------------------------
     /**
-     * Gets the most recent statement added to the log.
+     * Obtiene la declaración más reciente agregada al registro.
      * 
      * @return String the most recent log statement
      */

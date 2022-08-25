@@ -2,11 +2,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 // -------------------------------------------------------------------------
 /**
- * Represents a cell on the chess board. Holds a game piece.
- *
- * @author Ben Katz (bakatz)
- * @author Myles David II (davidmm2)
- * @author Danielle Bushrow (dbushrow)
+
+ *Representa una celda en el tablero de ajedrez. Sostiene una pieza de juego.
  * @version 2010.11.17
  */
 public class BoardSquare
@@ -20,11 +17,11 @@ public class BoardSquare
      * Create a new BoardSquare object.
      *
      * @param row
-     *            the row
+     *           fila
      * @param col
-     *            the column
+     *           columna
      * @param piece
-     *            the game piece
+     *           Piezas del juego
      */
     public BoardSquare( int row, int col, ChessGamePiece piece ){
         super();
@@ -57,16 +54,16 @@ public class BoardSquare
     public int getRow(){
         return row;
     }
-    // ----------------------------------------------------------
+
     /**
-     * Gets the column number.
+     * Obtiene la columna del numero
      *
      * @return int the column number
      */
     public int getColumn(){
         return col;
     }
-    // ----------------------------------------------------------
+
     /**
      * Gets the piece on this square
      *
@@ -75,12 +72,12 @@ public class BoardSquare
     public ChessGamePiece getPieceOnSquare(){
         return piece;
     }
-    // ----------------------------------------------------------
+ 
     /**
-     * Sets the piece on this square
+     * Coloca la pieza en este cuadrado
      *
      * @param p
-     *            the piece
+     *           
      */
     public void setPieceOnSquare( ChessGamePiece p ){
         piece = p;
@@ -88,7 +85,7 @@ public class BoardSquare
     }
     // ----------------------------------------------------------
     /**
-     * Clears this square, removing the icon and the piece.
+     * Limpia esta casilla, eliminando el icono y la pieza.
      */
     public void clearSquare(){
         piece = null;
